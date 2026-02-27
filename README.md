@@ -1,6 +1,6 @@
 # Reddit Scraper
 
-## Reddit Scraper (Modes)
+### Reddit Scraper (Modes)
 
 Use one of these depending on what you want to collect:
 
