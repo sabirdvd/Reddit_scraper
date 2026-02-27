@@ -32,7 +32,7 @@ python reddit_scraper.py -c communication --max-posts 100 --delay 1.5 --outdir o
 
 Output is saved as JSON and CSV under `output/<category>/`.
 
-## Reddit Scraper (Flags)
+### Reddit Scraper (Flags)
 
 1. `-a`, `--app`: Scrape specific apps only.
 2. `-c`, `--categories`: Scrape by category.
