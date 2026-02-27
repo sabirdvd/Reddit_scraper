@@ -1,9 +1,24 @@
-# reddit_scraper
-# Run examples:
-# python reddit_scraper.py --list-categories
-# python reddit_scraper.py -c "Share photos & videos" --outdir output --max-posts 200 --delay 2.0
-# python reddit_scraper.py -c social communication
-# python reddit_scraper.py -a "Google Drive" "TikTok Studio" Uber
+# reddit_scraper (mode) 
+# a) Scrape all configured apps (normal settings)
+#    python reddit_scraper.py
+# b) List categories and aliases
+#    python reddit_scraper.py --list-categories
+# c) Scrape by categories (supports names and aliases)
+#    python reddit_scraper.py -c "Share photos & videos" Communication
+#    python reddit_scraper.py -c social productivity
+# d) Scrape selected apps only
+#    python reddit_scraper.py -a "Google Drive" "TikTok Studio" Uber
+# f) Custom limits/output directory
+#    python reddit_scraper.py -c communication --max-posts 100 --delay 1.5 --outdir output
+
+# reddit_scraper (flag)   
+# 1) -a, --app: Scrape specific apps only.
+# 2) -c, --categories : Scrape by category.
+# 3) --list-categories: List categories and exit.
+# 4) --max-posts : Max posts per app source (default: 200).
+# 5) --delay : Delay between requests in seconds (default: 2.0).
+# 6) --outdir : Output directory for JSON/CSV (default: output).
+
 
 import argparse
 import requests
