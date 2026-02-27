@@ -55,5 +55,5 @@ python data_quality_check.py --outdir output --strict
 
 ### Flags (`data_quality_check.py`)
 
-- `--outdir`: Root output folder to scan (default: `output`).
-- `--strict`: Exit non-zero when shape/duplicate URL issues are found.
+1. `--outdir`: Root output folder to scan (default: `output`).
+2. `--strict`: Exit non-zero when shape/duplicate URL issues are found.
