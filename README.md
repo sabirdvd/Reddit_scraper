@@ -2,8 +2,6 @@
 
 ### Reddit Scraper (Modes)
 
-Use one of these depending on what you want to collect:
-
 1. Scrape all configured apps (normal settings)
 ```bash
 python reddit_scraper.py
